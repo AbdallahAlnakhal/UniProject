@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Untitled-1.css">
+    <script src="https://kit.fontawesome.com/271dddf223.js" crossorigin="anonymous"></script>
+
+    <title>final project</title>
+    <script>
+        // Get the modal
+
+
+        var span = document.getElementsByClassName("close")[0];
+
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        function validateForm() {
+            var fname = document.forms["myForm"]["fname"].value;
+            var lname = document.forms["myForm"]["lname"].value; 
+            var email = document.forms["myForm"]["email"].value;  
+            var select = document.forms["myForm"]["select"].value;
+            var text = document.forms["myForm"]["text"].value;
+            
+            if (fname == "" || fname == null) {
+                document.getElementById("fname").style.outline = "1px solid red"
+               
+                
+                var modal = document.getElementById("myModal");
+
+                modal.style.display = "block";
+
+                var span = document.getElementsByClassName("close")[0];
+
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+
+
+                return false;
+            }
+          else if (lname == "" || lname == null) {
+                document.getElementById("lname").style.outline = "1px solid red"
+                document.getElementById("email").style.outline = "1px solid red"
+                document.getElementById("select").style.outline = "1px solid red"
+                document.getElementById("text").style.outline = "1px solid red"
+                
+                var modal = document.getElementById("myModal");
+
+                modal.style.display = "block";
+
+                var span = document.getElementsByClassName("close")[0];
+
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+
+
+                return false;
+            }
+            else if (email == "" || email == null) {
+                document.getElementById("email").style.outline = "1px solid red"
+                document.getElementById("select").style.outline = "1px solid red"
+                document.getElementById("text").style.outline = "1px solid red"
+                
+                var modal = document.getElementById("myModal");
+
+                modal.style.display = "block";
+
+                var span = document.getElementsByClassName("close")[0];
+
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+
+
+                return false;
+            }
+          else if (select == "" || select == null) {
+                document.getElementById("select").style.outline = "1px solid red"
+                
+                var modal = document.getElementById("myModal");
+
+                modal.style.display = "block";
+
+                var span = document.getElementsByClassName("close")[0];
+
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+
+
+                return false;
+            }
+           else if (text == "" || text == null) {
+                document.getElementById("text").style.outline = "1px solid red"
+                
+                var modal = document.getElementById("myModal");
+
+                modal.style.display = "block";
+
+                var span = document.getElementsByClassName("close")[0];
+
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+
+
+                return false;
+            }
+        }
+    
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="./img/Group 2199.png" alt="logo"class="logo">
+        <nav class="navigation">
+            <a href="#Languges" class="a">Languges</a>
+            <a href="#Projects"class="a">Projects</a>
+            <a href="#Contact"class="a">Contact</a>
+            <a href="#Languges" class="a">Languges</a>
+            <a href="#Projects"class="a">Projects</a>
+            <a href="#Contact"class="a">Contact</a>
+            <label for="">
+                <input type="search"  placeholder="search  " class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+            <a href="#" class="nav-btn">create accoount</a>
+        </nav>
+    </header>
+                 
+    </nav>
+    <section class="main">
+        <div>
+            <h1><span>We create simple soulution</span></h1> <br> <h2>  For your compelx Task</h2>
+            <pre class="pre1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Ducimus vitae placeat facere  voluptas repellendus unde magni</pre>
+            <div class="btns">
+               <a href="#Projects" class="main-btn">view my work</a>
+               <a href="./files/CV Abdallah ALnakhal1.docx " class="main-btn" target="_blank">Know More</a>
+
+            </div>
+            
+        
+        </div>
+    </section>
+    <section class="main2">
+        <div class="pmain2">
+     <div class="proch1">
+        <h1>the process</h1>
+        <h1>About our work</h1>
+    </div>
+        <pre class="procpre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem nisi facere vel,
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem nisi facere vel,  
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem nisi facere vel, 
+
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem nisi facere vel,
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem nisi facere vel,.</pre>
+    </div>
+        <div class="btns">
+            <a href="#Projects" class="main-btn2">Know More</a>
+
+         </div>
+    </section>
+    <h2 class="gal">Our Featured Gallery</h2>
+    <div class="gallery"  >
+        <div class="item1" style="grid-area: h1;">
+            <img src="./img/img1.jpg" alt="img1" class="item1">
+            <div class="p1">Dumini Soliman's  </div>
+            <div class="p2"><pre>Lorem ipsum dolor sit amet, vel accumsan 
+liberavisse ex, ea nec boraret interpretaris, </pre> </div>
+        </div>
+        <div style="grid-area: h2;"><img src="./img/img2.jpg" alt="img2" class="item2"></div>
+        <div style="grid-area: h3;" ><img src="./img/img3.jpg" alt="img3" class="item2"></div>
+        <div style="grid-area: h4;" ><img src="./img/img4.jpg" alt="img4" class="item2"></div>
+        <div style="grid-area: h5;" ><img src="./img/img5.jpg" alt="img5" class="item2"></div>
+        <div style="grid-area: h6"><img src="./img/img6.jpg" alt="img6" class="item2"></div>
+        <div style="grid-area: h7;" ><img src="./img/img7.jpg" alt="img7" class="item2"></div>
+        <div style="grid-area: h8;" ><img src="./img/img8.jpg" alt="img8" class="item2"></div>
+        
+
+
+    </div>
+    <br>
+    <br>
+<div class="us">
+    <h2>What is the <br>
+        Speciality Of Us?</h2>
+        <div class="content">
+
+            <div class="card">
+                <div class="icon">
+                <img src="./img/Group 1952.jpg" alt="">
+                </div>    
+                <div class="info">
+                    <h3>Quick Response </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos recusandae enim nisi praesentium saepe.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                   <img src="./img/Group 1958.png" alt="">
+                </div>    
+                <div class="info">
+                    <h3>Great Communication</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos recusandae enim nisi praesentium saepe.</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">
+                  <img src="./img/Group 1956.png" alt="">
+                </div>    
+                <div class="info">
+                    <h3>Customer Satisfaction</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos recusandae enim nisi praesentium saepe.</p>
+                </div>
+            </div>
+            
+
+</div>
+<i class="fa-solid fa-circle-arrow-left"></i>
+<i class="fa-solid fa-circle-arrow-right"></i>
+
+   
+<div class="our">
+    <h2>Our Owning Products</h2> 
+    <pre>Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec  
+        habemus sea ut. His nibh scripta in. In sea vocibus facilisis. </pre>
+        
+        <div class="pro">
+
+            <div class="Products">
+                <div class="icon">
+                <img src="./img/e1.png" alt="">
+                </div>    
+                <div class="info2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos recusandae enim nisi praesentium saepe.</p>
+                    <h3>Learn More</h3>
+                </div>
+            </div>
+
+            <div class="Products">
+                <div class="icon">
+                   <img src="./img/e2.png" alt="">
+                </div>    
+                <div class="info2">
+                   
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos recusandae enim nisi praesentium saepe.</p>
+                    <h3>Learn More</h3>
+                </div>
+            </div>
+
+
+            <div class="Products">
+                <div class="icon">
+                  <img src="./img/e3.png" alt="">
+                </div>    
+                <div class="info2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos recusandae enim nisi praesentium saepe.</p>
+                    <h3>Learn More</h3>
+                </div>
+                
+            </div>
+            <div class="Products">
+                <div class="icon">
+                <img src="./img/e4.png" alt="">
+                </div>    
+                <div class="info2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos recusandae enim nisi praesentium saepe.</p>
+                    <h3>Learn More</h3>
+                </div>
+            </div>
+
+            <div class="Products">
+                <div class="icon">
+                   <img src="./img/e5.png" alt="">
+                </div>    
+                <div class="info2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos recusandae enim nisi praesentium saepe.</p>
+                    <h3>Learn More</h3>
+                </div>
+            </div>
+
+
+            <div class="Products">
+                <div class="icon">
+                  <img src="./img/e6.png" alt="">
+                </div>    
+                <div class="info2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos recusandae enim nisi praesentium saepe.</p>
+                   
+                    <h3>Learn More</h3>
+                </div>
+            
+
+</div>
+        </div>
+
+
+     <div class="cl_par">
+       
+        <div class="client">
+            <h2>What Our Client Says?</h2>
+        </div>
+        <div class="client_img">
+        <img src="./img/albert-dera-ILip77SbmOE-unsplash.png" alt="client picture">
+    </div>
+    
+    <div class="lere">
+        <img src="./img/quote-left.png" alt=""  class="le">
+        <img src="./img/quote-right.png" alt="" class="ri">
+    </div>
+    <div class="cl_say">
+        <pre>Lorem ipsum dolor sit amet, consetetur 
+ sadipscing elitr, sed diam nonumy eirmod 
+tempor invidunt ut labore dolore magna
+
+</pre>
+    </div>
+   
+    <div class="ru">
+        <p >Rubiya Mond De-Patrica</p>
+        </div>
+        <div class="ce">
+       <span > CEO, Zexbay-Fine</span>
+    </div>
+    <div class="left_right">
+        <img src="./img/Group 2257.png" alt="">
+    </div>
+    <div>
+        <img src="./img/p1.png" alt="" class="c1">
+       <img src="./img/p2.png" alt=""  class="c2">
+       <img src="./img/p3.png" alt=""  class="c3">
+       <img src="./img/p4.png" alt=""  class="c4">
+       <img src="./img/p5.png" alt=""  class="c5">
+       <img src="./img/p6.png" alt=""  class="c6">
+   </div>
+</div>
+<div class="fac">
+    <div class="fb">
+        <pre>Facing Problem? 
+        Lets Get In Touch Now</pre>
+    </div>
+    <div class="container">
+      
+        <form name="myForm" action=""  onsubmit="return validateForm()" method="post" required>
+           <div class="form-row">
+              <div class="input-data">
+                <label for="">First Name</label>
+                 <input type="text"  placeholder="First name" id="fname">
+                
+                
+              </div>
+              <div class="input-data">
+                 <input type="text"  placeholder="Last name"  id="lname">
+                 <label for="">Last Name</label>
+              </div>
+           </div>
+              <div class="input-data">
+                 <input type="text"  placeholder="kevin.jones@mail.com"  id="email">
+                 <label for="">Email Address</label>
+              </div>
+              <div class="input-data">
+                 <select name="select" id="select"   placeholder="Select one of option" id="select">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="">C</option>
+                 </select>
+                 <label for=""  >Which Related Problem You Are Facing?</label>
+              </div>
+           
+           <div class="form-row">
+              <div class="input-data textarea" >
+                
+                 <textarea rows="8" cols="80"  id="text" placeholder="Lorem Ipsum is simply dummy text of the printing and...……."></textarea>
+                 
+                 <br>
+                 <br>
+                 <label for="">Type Your Message</label>
+                 <br />
+                 <div class="form-row submit-btn">
+                    <div class="input-data">
+                       <div class="inner"></div>
+                       <input type="submit" value="our works">
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </form>
+        
+        <img src="./img/leftMan.png" alt="" class="lem"> 
+        <img src="./img/rightMan.png" alt="" class="rem">
+     </div> 
+
+    
+</div>
+
+
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Warning!</h2>
+        </div>
+        <div class="modal-body">
+            <p>It seems that there are empty fields that need to be filled!</p>
+        </div>
+    </div>
+
+</div>
+<footer>
+    <img src="./img/Group 2199.png" alt="logo" class="logolast">
+    <div class="fot">
+    <div class="contact">
+        <h3>Contact Us</h3>
+            <p> <i class="fas fa-mobile-alt"></i>+(290) 520-7927</p>
+            <p> <i class="fas fa-mobile-alt"></i>Dhaka,Bangladesh</p>
+            <p> <i class="fas fa-envelope"></i>themefisher.com</p>
+    </div>
+    <div class="company">
+        <h3>Our Company</h3>
+        <p>About</p><br>
+        <p>Product </p><br>
+        <p>Portfolio</p><br>
+        <p>Career<p><br>
+        <p>Blog<p>
+ 
+    </div>
+    <div class="social">
+        <h3>Social Contacts</h3>
+        
+            <p>Facebook</p><br>
+            <p>linked In</p><br>
+            <p>Youtube</p><br>
+            <p>Vimeo<p><br>
+            <p>Skype<p>
+       
+    </div>
+    <div class="add">
+        <h3>Address</h3>
+        
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus debitis quo unde <br> rerum veritatis alias ab libero impedit ducimus beatae?</p>
+            <h2 class="follow">Follw Me:-</h2>
+           
+              
+                <a href="https://www.facebook.com/profile.php" target="_blank" class="face"><i class="fa-brands fa-facebook-f"></i>    
+                <a href="https://twitter.com/aAbdallahNakhal" target="_blank" class="twi"><i class="fa-brands fa-skype"></i></i> </a>
+                <a href="https://www.instagram.com/abdallah_moneer/" target="_blank" class="ins"><i class="fa-brands fa-instagram"></i> </a>
+                <a href="https://www.instagram.com/abdallah_moneer/" target="_blank" class="lin"><i class="fa-brands fa-linkedin-in"></i> </a>
+               
+     
+    </div>
+    
+</div>
+<div class="copy">
+   
+<p class="fo">&reg;Made with "&trade;Abdallah " in Gaza - &copy; 2022 Copyright- Abdallah Developer</p>
+</div>
+<img src="./img/Group 2629.png" alt="" class="end-img">
+
+</footer>
+
+
+
+
+</body>
+</html>
